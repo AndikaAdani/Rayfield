@@ -35,8 +35,8 @@ local RayfieldLibrary = {
 			TabBackground = Color3.fromRGB(5,1,8),
 			TabStroke = Color3.fromRGB(5,1,8),
 			TabBackgroundSelected = Color3.fromRGB(10,1,6),
-			TabTextColor = Color3.fromRGB(240, 240, 240),
-			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
+			TabTextColor = Color3.fromRGB(255, 255, 255),
+			SelectedTabTextColor = Color3.fromRGB(70, 70, 70),
 
 			ElementBackground = Color3.fromRGB(5,1,8),
 			ElementBackgroundHover = Color3.fromRGB(5, 1, 8),
@@ -50,7 +50,7 @@ local RayfieldLibrary = {
 
 			ToggleBackground = Color3.fromRGB(5,1,8),
 			ToggleEnabled = Color3.fromRGB(83, 0, 233),
-			ToggleDisabled = Color3.fromRGB(100, 100, 100),
+			ToggleDisabled = Color3.fromRGB(70, 70, 70),
 			ToggleEnabledStroke = Color3.fromRGB(5,1,8),
 			ToggleDisabledStroke = Color3.fromRGB(5,1,8),
 			ToggleEnabledOuterStroke = Color3.fromRGB(5,1,8),
@@ -114,7 +114,7 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 
 -- Interface Management
-local Rayfield = game:GetObjects("rbxassetid://17378474805")[1]
+local Rayfield = game:GetObjects("rbxassetid://17378523693")[1]
 
 Rayfield.Enabled = false
 
